@@ -1,5 +1,8 @@
 # Cashew SoftDev K<06> 
-## Divine Your Destiny Pt.2 Summative Assessment (Explain the code) \n <2021>-<09>-<29> \n How the code works
+#### Divine Your Destiny Pt.2 Summative Assessment (Explain the code)
+#### (Shriya Anand, Emma Buller, William Chen)
+#### <2021>-<09>-<29>
+#### How the code works
 ## Correct Method:
 1. We first opened the csv file- 'occ.csv' is the file we are opening and 'newline = ''' handles the line breaks for us (we do not need to worry about splitting the data for each line).
 2. We then read through the file using a csv reader.
