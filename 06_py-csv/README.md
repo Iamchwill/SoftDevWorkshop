@@ -15,8 +15,9 @@
 3. This list had all the jobs and percents as one string. Then we looped through the list and looked at each item.
 4. We then split the string by the character in between the job and the percentage.
 5. Then we put the job and percentage in a dictionary. In the dictionary, each entry has a key (like a word) and a corresponding value (like definition). In our case, the job was the key and percentage was the value.
-6. We then split the dictionary into two lists: one for the keys and one for the values. We do this for the random.choices method. Random.choices lets us pick a value in a list with weighted values.
+6. We then split the dictionary into two lists: one for the keys and one for the values. We do this for the random.choices method. Random.choices lets us pick a value in a list with weighted values.  
+  
 **Dictionaries:**
-Dictionaries are useful because you store two sets of related data together. The order is also not preserved so it is easy to sort, unlike lists. You can also easily find values using keys rather than their index. They also don't allow duplicates, which can be useful in some cases.
+Dictionaries are useful because you store two sets of related data together. The order is also not preserved so it is easy to sort, unlike lists. You can also easily find values using keys rather than their index. They also don't allow duplicates, which can be useful in some cases.  
 **Lists:**
 Lists are an easy way to store and retrieve data. Lists allow for duplicates, which can be useful in some cases. Lists can be 2d and are not restricted to only 1 key having 1 value associated with it.
