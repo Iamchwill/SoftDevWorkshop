@@ -1,11 +1,11 @@
-#Cashew SoftDev K<06> -- Divine Your Destiny Pt.2 Summative Assessment (Explain the code) <2021>-<09>-<29> How the code works#
-##Correct Method:
+# Cashew SoftDev K<06> -- Divine Your Destiny Pt.2 Summative Assessment (Explain the code) <2021>-<09>-<29> How the code works#
+## Correct Method:
 We first opened the csv file- 'occ.csv' is the file we are opening and 'newline = ''' handles the line breaks for us (we do not need to worry about splitting the data for each line).
 We then read through the file using a csv a.
 Then, we used a for loop to go through the entire file row by row.
 Then we put the job and percentage in a previously created dictionary. In the dictionary, each entry has a key (like a word) and a corresponding value (like definition). In our case, the job was the key and percentage was the value.
 We then split the dictionary into two lists: one for the keys and one for the values. We do this for the random.choices method. Random.choices lets us pick a value in a list with weighted values (or different levels of importance).
-##Old Method:
+## Old Method:
 We opened the file in read mode which lets us go through the file's content without being able to edit (write mode). Originally, we had copied the data wrong. so we treated it as a text file instead of a csv (comma separated value).
 Then we used the split function to divide the content of the file wherever there was a newline and added each piece to a list.
 This list had all the jobs and percents as one string. Then we looped through the list and looked at each item.
