@@ -1,0 +1,12 @@
+QUESTIONS
+- How does csv.DictReader() work?
+- How exactly random.choices()'s weighted values work?
+- Which method of completing this assignment is most effective?
+
+COMMENTS
+- We each had different ways of formatting code.
+- Some put everything into one function whereas others wrote it in parts
+- csv.DictReader() takes the first row of values and turns it into the name of the key and value.
+
+CONCERNS
+- Some programs, when compared with others, may be inefficient for large csv files and lists 

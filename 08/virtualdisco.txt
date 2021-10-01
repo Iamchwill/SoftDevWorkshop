@@ -1,0 +1,9 @@
+Sources:
+https://docs.python.org/3/tutorial/venv.html
+https://docs.python.org/3/library/venv.html
+
+python3 -m venv ~/myherozero creates a directory called myherozero in the home directory. This would place pyvenv.cfg, bin, and lib in it.
+It is used to separate the packages and modules that applications use, so they have what they need without impacting the other.
+You make the virtual environment active by running an “activate” script in its executables directory.
+You can “source (tutorial-env)/bin/activate” in shell to activate
+You manage with pip which installs, upgrades, and removes packages.
