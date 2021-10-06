@@ -1,7 +1,7 @@
-Cheap Bun Bun - William Chen, Cheap, Shyne Choi, Bun Bun
-SoftDev
-K09 -- Simple Path to Greatness/Flask Running Intro
-2021-10-02
+# Cheap Bun Bun - William Chen, Cheap, Shyne Choi, Bun Bun
+# SoftDev
+# K09 -- Simple Path to Greatness/Flask Running Intro
+# 2021-10-02
 
 from flask import Flask
 app = Flask(__name__) # Q0: Where have you seen similar syntax in other langs?
