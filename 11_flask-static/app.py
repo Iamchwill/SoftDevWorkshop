@@ -1,6 +1,7 @@
-# Clyde 'Thluffy' Sinclair
-# SoftDev
-# Oct 2021 
+#Cashew (Shriya Anand, Emma Buller, William Chen)
+#SoftDev
+#K11 -- Some Things Never Change. Static Files!
+#2021-10-6
 
 # DEMO 
 # basics of /static folder
