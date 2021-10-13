@@ -22,24 +22,14 @@ with open('data/occupations.csv', newline='') as csvfile:
             dictionary[row['Job Class']] = float(row['Percentage'])
 
 #Uses random.choices to pick the random job
-def selectJob():
+def select_Job():
     job = random.choices(list(dictionary.keys()),list(dictionary.values()), k = 1)
     return "Here's the random one: " + job[0]
-
-def makeList():
-    #<br> for viewablity without making it too complicated
-    #NOTE: \n does not work, since it will be put onto webpage
-    written = "<br> <br> Here's the whole list:<br>"
-    listJobs = list(dictionary.keys())
-    #Turns the jobs into a string since I can add it to the future return and lists don't seem to work.
-    for jobs in listJobs:
-        written += jobs + '<br>'
-    return written
 
 #What shall be shown
 @app.route("/occupyflaskst")
 def HEY_WORLD():
-    return render_template('tablified.html', title = "occupations", collection = dictionary)
+    return render_template('tablified.html', title = "occupations", collection = dictionary, job = select_Job())
 
 #RUN
 app.debug=True
