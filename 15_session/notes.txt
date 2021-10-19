@@ -1,0 +1,9 @@
+Waahoos: Alejandro Alonso, Ivan Mijacika, William Chen
+SoftDev
+K15 -- Sessions Greetings
+2021-10-19
+
+- If statements in HTML figured out
+- Might not need if statements in HTML if we make 2 response pages (may be useful in future)
+- Currently figuring out sessions and buttons in flask.
+- Look into cookies.
