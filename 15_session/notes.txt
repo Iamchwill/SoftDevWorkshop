@@ -1,9 +1,18 @@
 Waahoos: Alejandro Alonso, Ivan Mijacika, William Chen
 SoftDev
-K15 -- Sessions Greetings
-2021-10-19
+K15 -- Sessions Greetings -- Users and Passes/Sessions and Cookies
+2021-10-18
 
 - If statements in HTML figured out
 - Might not need if statements in HTML if we make 2 response pages (may be useful in future)
 - Currently figuring out sessions and buttons in flask.
-- Look into cookies.
+- Looking into cookies.
+
+Resources:
+https://flask.palletsprojects.com/en/2.0.x/api/?highlight=session#flask.session
+https://stackoverflow.com/questions/41416411/flask-signing-in-and-signing-out
+https://www.tutorialspoint.com/flask/flask_sessions.htm
+https://overiq.com/flask-101/sessions-in-flask/
+https://pythonbasics.org/flask-sessions/
+https://testdriven.io/blog/flask-sessions/
+https://stackoverflow.com/questions/42601478/flask-calling-python-function-on-button-onclick-event
