@@ -1,13 +1,9 @@
-Can't test code right now, so here are questions for future me:
-Did the code work?
+Waahoos: Alejandro Alonso, Ivan Mijacika, William Chen
+SoftDev
+K16 -- All About Database -- Sqlite3
+2021-10-25
 
-If not:
-Did the empty table break it?
-Was it a problem with the DictReader or the database inputting?
-Was it a problem with 
-Was it the fact you did this randomly at night?
-
-If did: Wow.
+V1 didn't work.
 
 Notes:
 - You can ALTER TABLE. This lets you rename the table, rename columns, deleta a column or add a column.
