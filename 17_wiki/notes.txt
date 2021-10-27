@@ -1,0 +1,9 @@
+Waahoos: Alejandro Alonso, Ivan Mijacika, William Chen
+SoftDev
+P00 -- Half Quick -- Wiki design plan
+2021-10-26
+
+To check for table existence:
+One group used try drop table and another made an separate function.
+In the try method. you would delete if it existed
+In the separate function, you would edit the current table.
