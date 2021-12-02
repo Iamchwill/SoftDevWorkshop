@@ -4,9 +4,16 @@ K23 - No.2? Bootstrapping with no Foundation
 2021-12-02
 
 DISCO
+- 
 
 QCC
+- I only know how to manipulate images as cards from the tutorial.
+- What can you style for plain images?
 
 Q0
+- Tutorial showed a good amount of features and didn't need additional sources
+- Could infer/test customization options.
+- Had to look up a bit to see what other ways of customization was available
 
 Q1
+- Bootstrap was easier to use with the website tutorial given by other duo. Cards seem versatile and easy to use. I like Bootstrap's grid format better than Foundation's. Foundations docs have more info on each function which I like, but I was still confused by it. Foundation has animations, but I couldn't get those to work.
