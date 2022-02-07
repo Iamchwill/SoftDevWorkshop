@@ -22,4 +22,17 @@ var fib = function(n) {
   return fib(n - 1) + fib(n - 2);
 };
 
+var gcdHelp = function(a, b, store) {
+  while(b != 0){
+    store = b;
+    b = a % b;
+    a = store;
+  }
+  return a;
+};
+
+var gcd = function(a, b){
+  return gcdHelp(a,b,0);
+};
+
 //Do whatever you think is needed. Think: S I M P L E.   Think: S M A R T.
