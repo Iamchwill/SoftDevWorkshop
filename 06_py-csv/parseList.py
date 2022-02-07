@@ -16,7 +16,6 @@
 import random
 import csv
 
-import random
 def selectJob():
     dictionary ={}
     with open('occ_per.csv', newline='') as csvfile:
