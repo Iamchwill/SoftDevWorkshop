@@ -1,0 +1,112 @@
+// Team InvasionOfPrivacy :: Yoonah Chang (Yelena) and William Chen (Cheap)
+// SoftDev pd2
+// K28 -- Getting more comfortable with the dev console and the DOM
+// 2022-02-08t
+// --------------------------------------------------
+
+
+//send diagnostic output to console
+//(Ctrl-Shift-K in Firefox to reveal console)
+console.log("AYO");
+
+var i = "hello";
+var j = 20;
+
+//assign an anonymous fxn to a var
+var f = function(x) {
+  var j=30;
+  return j+x;
+};
+
+//doing f(j)=50 because j is 20 and j is 30 inside of the function. 20+30=50!
+//doing f(i)=30hello because it is string concatenation. i is hello and j is 30 inside the function.
+
+
+//instantiate an object
+var o = { 'name' : 'Thluffy',
+          age : 15,
+          items : [10, 20, 30, 40],
+          morestuff : {a : 1, b : 'ayo'},
+          func : function(x) {
+            return x+30;
+          }
+        };
+
+
+var addItem = function(text) {
+  var list = document.getElementById("thelist");
+  var newitem = document.createElement("li");
+  newitem.innerHTML = text;
+  list.appendChild(newitem);
+};
+
+
+var removeItem = function(n) {
+  var listitems = document.getElementsByTagName('li');
+  listitems[n].remove();
+};
+
+
+var red = function() {
+  var items = document.getElementsByTagName("li");
+  for(var i = 0; i < items.length; i++) {
+    items[i].classList.add('red');
+  }
+};
+
+
+var stripe = function() {
+  var items = document.getElementsByTagName("li");
+  for(var i = 0; i < items.length; i++) {
+    if (i%2==0){
+      items[i].classList.add('red');
+    } else {
+      items[i].classList.add('blue');
+    }
+  }
+};
+
+//fact function
+var fact = function(n) {
+  if(n < 1){
+     return 1
+     }
+     return n * fact(n-1);
+  };
+
+//fib function
+var fib = function(n) {
+  if(n < 2){
+    return n;
+  }
+  return fib(n - 1) + fib(n - 2);
+};
+
+//gcd function
+var gcd = function(a, b) {
+  while(b != 0){
+    var store = b;
+    b = a % b;
+    a = store;
+  }
+  return a;
+};
+
+function fibber() {
+  buttonRender.innerHTML = "fib(8) = " + fib(8);
+}
+
+function factor() {
+  buttonRender.innerHTML = "fact(9) = " + fact(9);
+}
+
+function gced() {
+  buttonRender.innerHTML = "gcd(2048,256) = " + gcd(2048,256);
+}
+addItem(fact(12))
+
+document.getElementById("fib").addEventListener('click', fibber);
+document.getElementById("fact").addEventListener('click', factor);
+document.getElementById("gcd").addEventListener('click', gced);
+
+console.log(fib(12));
