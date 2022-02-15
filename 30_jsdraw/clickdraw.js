@@ -16,6 +16,7 @@ var toggleMode = function(e) {
     else {
       mode = "rect";
     }
+    buttonToggle.innerHTML = mode;
 }
 
 var drawRect = function(e) {
