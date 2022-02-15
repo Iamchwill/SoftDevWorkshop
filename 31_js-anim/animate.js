@@ -8,19 +8,19 @@
 // SKEELTON
 
 
-//access canvas and buttons via DOM
-var c = // GET CANVAS
-var dotButton = // GET DOT BUTTON
-var stopButton = // GET STOP BUTTON
+//access canvas and buttons via DOM get
+var c = document.getElementByID("playground");// GET CANVAS
+var dotButton = document.getElementByID("buttonCircle");// GET DOT BUTTON
+var stopButton = document.getElementByID("buttonStop");// GET STOP BUTTON
 
 //prepare to interact with canvas in 2D
-var ctx = // YOUR CODE HERE
+var ctx = c.getContext("2d");// YOUR CODE HERE
 
 //set fill color to team color
-ctx.fillStyle = // YOUR CODE HERE
+ctx.fillStyle = "#bcdec4";// YOUR CODE HERE
 
 var requestID;  //init global var for use with animation frames
-
+console.log(requestID);
 
 //var clear = function(e) {
 var clear = (e) => {
