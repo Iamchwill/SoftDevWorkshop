@@ -8,10 +8,13 @@
 // SKEELTON
 
 //access canvas and buttons via DOM
-var c = document.getElementById("playground")
-var dotButton = document.getElementById("buttonCircle")
-var stopButton = document.getElementById("buttonStop")
-var rollButton = document.getElementById("buttonRoll")
+var c = document.getElementById("playground");
+var dotButton = document.getElementById("buttonCircle");
+var stopButton = document.getElementById("buttonStop");
+var rollButton = document.getElementById("buttonRoll");
+var dvd = new Image();
+dvd.src = "logo_dvd.jpg";
+
 
 //prepare to interact with canvas in 2D
 var ctx = c.getContext("2d")
@@ -36,7 +39,7 @@ var growing = true;
 //var drawDot = function() {
 var drawDot = () => {
   console.log(requestID)
-  //console.log("drawDot invoked...")
+  console.log("drawDot invoked...")
   if (growing === true) {
     radius++;
     if (radius === ((c.clientHeight / 2) - 1)) {
@@ -78,11 +81,11 @@ var drawDot = () => {
 var roll = c.clientWidth / 2;
 
 var rollDot = () => {
-  console.log("requestID: ");
-  console.log("requestID: " + requestID);
-  // console.log("rolling dot");
+  console.log(requestID)
+  console.log("rolling dot")
   if (requestID) {
-    window.cancelAnimationFrame(requestID)
+    window.cancelAnimationFrame(requestID);
+    roll -=4;
   }
   ctx.clearRect(0, 0, c.clientWidth, c.height)
   ctx.beginPath();
